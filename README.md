@@ -1,1 +1,1 @@
-## I have included the Web Scarping using Python Projects in this Repository.
+## I have included Web Scraping Projects using Python in this Repository.
