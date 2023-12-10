@@ -18,7 +18,7 @@ The selenium library is used to extract data from dynamic web pages, it can exec
 - In the project, I have used python libraries BeautifulSoup, requests, and pandas for efficient web scraping.
 - Initially using requests library I get a 200 response, ensure successful communication with the Box Office Mojo server.
 - Then, using BeautifulSoup libaray, extract the response content and store it in the info variable.
-- Utilizes the find and find_all functions of BeautifulSoup to navigate the HTML structure and extract the tabular data.
+- Utilize the find and find_all functions of BeautifulSoup to navigate the HTML structure and extract the tabular data.
 - Use a python for loop to systematically go through the website's content.
 - Initially, I extract the column names and create a dataframe using them. In the next step, I extract all the data and append it to the dataframe.
 - Gathered detailed information for the top 200 movies to ensure a comprehensive dataset.
@@ -31,4 +31,15 @@ The selenium library is used to extract data from dynamic web pages, it can exec
 - In this project, I followed a similar methodology as in Project 1, implementing python web scraping tools like BeautifulSoup and Requests.
 - The data extraction process involved obtaining medal table information from the JagranJosh website, structuring it into columns such as Rank, Country, Gold, Silver, Bronze, and Total.
 - The final step included exporting this organized dataset into a CSV file.
-- Explore medal standings, identify trends, and derive insights into the performance of countries at the Asian Games 2023. 
+- Explore medal standings, identify trends, and derive insights into the performance of countries at the Asian Games 2023.
+
+### Project3 Description. 
+- Project Name: **SCRAPING TABLE DATA OF TOP 100 NSE MIDCAP COMPANIES FROM MONEYCONTROL WEBSITE.**
+- The aim is to extract detailed stock market information for the top 100 NSE Midcap companies from Moneycontrol.
+- In this project, I have used selenium library, selenium functions such as webdriver, Service, By.
+- Utilize the Selenium library to automate web interactions and extract dynamic table data from the Moneycontrol website.
+- Initially extract the column names using find_elements function, By.XPATH. And created dataframe. 
+- Stock market data columns, including company name, last traded price, percentage change, volume, buy price, sell price, buy quantity, and sell quantity.
+- Then using same function find_elements, I extract the data about each companie, and append to the dataframe.
+- Created structured dataframe and then transform into CSV file to use further.
+- Gain access to crucial stock market data of top NSE Midcap companies for analysis, visualization, and informed investment decisions. 
