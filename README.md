@@ -9,3 +9,5 @@ The requests library used to send HTTP requests and handle the corresponding res
 ### About Python BeautifulSoup Library: 
 Beautiful Soup is a python library designed for pulling data out of HTML and XML files. It provides a convenient way to navigate, search, and modify the hierarchical structure of a source code, making it easier to scrape and extract information from web pages. 
 
+### About Python selenium Library: 
+The selenium library is used to extract data from dynamic web pages, it can execute javascript and dynamically load content, also to scrape data from infinite scroll web pages selenium is very useful.  
