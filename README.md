@@ -23,4 +23,12 @@ The selenium library is used to extract data from dynamic web pages, it can exec
 - Initially, I extract the column names and create a dataframe using them. In the next step, I extract all the data and append it to the dataframe.
 - Gathered detailed information for the top 200 movies to ensure a comprehensive dataset.
 - Transform the dataframe into a CSV file for enhanced usability.
--  The structured dataset is ready for immediate use in data analysis, visualization, unlock valuable insights about movies effortlessly. 
+-  The structured dataset is ready for immediate use in data analysis, visualization, unlock valuable insights about movies effortlessly.
+
+### Project2 Description. 
+- Project Name: **SCRAPING ASIAN GAMES 2023 MEDAL TABLE DATA FROM JAGRANJOSH WEBSITE.**
+- The scraped data is organized into columns representing the rank, country, gold, silver, bronze, and total medals achieved at the Asian Games 2023.
+- In this project, I followed a similar methodology as in Project 1, implementing python web scraping tools like BeautifulSoup and Requests.
+- The data extraction process involved obtaining medal table information from the JagranJosh website, structuring it into columns such as Rank, Country, Gold, Silver, Bronze, and Total.
+- The final step included exporting this organized dataset into a CSV file.
+- Explore medal standings, identify trends, and derive insights into the performance of countries at the Asian Games 2023. 
