@@ -42,4 +42,12 @@ The selenium library is used to extract data from dynamic web pages, it can exec
 - Stock market data columns, including company name, last traded price, percentage change, volume, buy price, sell price, buy quantity, and sell quantity.
 - Then using same function find_elements, I extract the data about each companie, and append to the dataframe.
 - Created structured dataframe and then transform into CSV file to use further.
-- Gain access to crucial stock market data of top NSE Midcap companies for analysis, visualization, and informed investment decisions. 
+- Gain access to crucial stock market data of top NSE Midcap companies for analysis, visualization, and informed investment decisions.
+
+### Project4 Description. 
+- Project Name: **SCRAPING TABULAR DATA OF CWC2023 QUALIFIER FROM MONEYCONTROL CRICKETWORLD WEBSITE.**
+- Aims to create a comprehensive dataset for cricket analysts, and fans interested in tracking the progress batsmen's in the CWC2023 Qualifier.
+- For this project, I used similar methodology of Project 1/2, utilizing Python web scraping tools such as BeautifulSoup for parsing and Requests for fetching data.
+- The dataset includes player statistics with columns representing Matches, Innings, Not Outs, Runs Scored, Highest Score, Batting Average, Balls Faced, Strike Rate, Centuries, Half-Centuries, Sixes and Fours.
+- Then Transform dataset to CSV file.
+- This dataset offers a detailed look at CWC2023 Qualifier, specifically focusing on batsmen's statistics.  
