@@ -57,6 +57,5 @@ The selenium library is used to extract data from dynamic web pages, it can exec
 - The aim of this project is to automate the extraction of Tokyo Olympics medal table data, including columns for Rank, Country, Gold, Silver, Bronze, and Total, from the BBC Sport website.
 - Utilized Python libraries: BeautifulSoup, requests, and pandas for efficient web scraping.
 - Started by obtaining a 200 response using the requests library, Employed BeautifulSoup to parse data from the BBC Sport website.
-- Created a 'table' variable to store table-related content from the webpage.
-- Utilized 'find' and 'find_all' functions in Python to extract the necessary data.
+- Created a table variable to store table-related content from the webpage, Utilized find and find_all functions in Python and core python coding to extract the necessary data.
 - Constructed a DataFrame using pandas to organize the extracted dataset, Converted the dataset into a CSV file for further analysis and usage. 
